@@ -1,23 +1,22 @@
-# KYC Verification System (Aadhaar + PAN + Face Match)  
+# KYC-Verification-Project
+MIT License
 
-Automated KYC verification tool that extracts data from Aadhaar/PAN cards using OCR, verifies DOB consistency, and performs face matching between Aadhaar photo and live selfie.  
+Copyright (c) [2025] [KYC-Verification-Project]
 
-## Features  
-- **Aadhaar OCR**: Extracts name, DOB, gender, and Aadhaar number.  
-- **PAN OCR**: Extracts name, DOB, and PAN number.  
-- **DOB Verification**: Cross-checks dates between Aadhaar and PAN.  
-- **Face Matching**: Uses `insightface` to compare Aadhaar photo with selfie.  
-- **JSON Export**: Saves extracted data to structured files.  
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## Tech Stack  
-- Python 3.x  
-- OpenCV (`cv2`) for image processing  
-- Tesseract OCR (`pytesseract`) for text extraction  
-- `insightface` for face recognition  
-- Tkinter for GUI  
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## Setup
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
