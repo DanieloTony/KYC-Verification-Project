@@ -1,5 +1,5 @@
-opencv-python
-pytesseract
-pillow
-numpy
-insightface
+opencv-python==4.7.0.72
+pytesseract==0.3.10
+pillow==9.5.0
+numpy==1.24.3
+insightface==0.7.3
